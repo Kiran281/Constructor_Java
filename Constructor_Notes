@@ -1,0 +1,35 @@
+Constructor in Java
+A constructor in Java is a special method that is automatically invoked when an object of a class is created. Its main purpose is to initialize objects and assign values to instance variables at the time of creation. Unlike normal methods, a constructor does not have a return type, not even void, and its name must be the same as the class name.
+-----------------------------------------------------------------------------------
+Characteristics of a Constructor
+1)The name of the constructor must be the same as the class.
+2)A constructor does not have a return type.
+3)It is executed automatically when an object is created.
+4)If no constructor is defined, Java provides a default one automatically.
+5)Constructors can be overloaded by providing different parameter lists.
+----------------------------------------------------------------------------------------
+Types of Constructors
+1)Default Constructor – A constructor without parameters that assigns default values to objects.
+2)Parameterized Constructor – A constructor that accepts arguments to initialize an object with specific values.
+-----------------------------------------------------------------------------------------
+
+Constructor Overloading
+1)A class can have multiple constructors with different parameter lists.
+2)This allows objects to be created in various ways.
+3)It improves flexibility and readability of the program.
+------------------------------------------------------------------------------------------
+Constructor Chaining
+1)Constructor chaining is the process of calling one constructor from another within the same class using the this() keyword.
+2)It reduces code duplication and improves reusability.
+----------------------------------------------------------------------------------------
+Difference Between Constructor and Method
+Name: Constructor has the same name as the class, while methods can have any name.
+Return Type: Constructor has no return type, but methods must have one.
+Execution: Constructor runs automatically at object creation, whereas methods are explicitly called.
+Purpose: Constructors initialize objects, methods perform specific tasks.
+--------------------------------------------------------------------------------------------
+Importance of Constructors
+1)They ensure that objects start in a valid and consistent state.
+2)They simplify object creation by providing initialization logic.
+3)They improve readability, maintainability, and flexibility through overloading.
+4)They support reusability and cleaner design with constructor chaining.
