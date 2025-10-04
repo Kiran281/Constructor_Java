@@ -1,1 +1,12 @@
-Encap
+Encapsulation in Java
+---------------------------------------------------------------
+I) Encapsulation in Java is a process of wrapping code and data together into a single unit. A capsule is the perfect example of encapsulation because a capsule is a mixture of several medicines.
+II) We can create a fully encapsulated class in Java by making all the data members of the class private. Now we can use setter and getter methods to set and get the data in it.
+----------------------------------------------------------------
+Why Use Encapsulation in Java?
+I) Encapsulation helps to protect data and control access to it.
+II) It protects sensitive data from being access directly.
+III) It hides unnecessary data from the user of a class, and only shows the functionality of a class.
+IV) Changes can be made internally without affecting the external interface.
+V) It is easier to scale applications because it provides flexibility to add or modify features without impacting the entire codebase.
+VI) Encapsulated classes can be reused across projects
